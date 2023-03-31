@@ -6,7 +6,7 @@ import TuitsController from "./controllers/tuits/tuits-controller.js";
 const app = express()
 app.use(cors())
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://a8--heartfelt-rabanadas-71ecd1.netlify.app/', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
